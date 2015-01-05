@@ -20,4 +20,12 @@ FactoryGirl.define do
     main_with_extras_length 9.5
     completionist_length 25
   end
+
+  factory :braid, parent: :hltb_game do
+    name "Braid"
+    url "http://howlongtobeat.com/game.php?id=1290"
+    main_length 5
+    main_with_extras_length 6
+    completionist_length 7
+  end
 end
