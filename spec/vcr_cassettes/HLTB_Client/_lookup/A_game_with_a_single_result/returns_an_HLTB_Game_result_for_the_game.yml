@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
+    body:
+      encoding: US-ASCII
+      string: queryString=Braid
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.howlongtobeat.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Jan 2015 22:31:11 GMT
+      Content-Type:
+      - text/html; charset=windows-1252
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=9dedf3dd5244d3e4901712e375e39a6e; path=/
+      - __cfduid=d0284558c3850c6d448aa9b7d1fe317791420497069; expires=Tue, 05-Jan-16
+        22:31:09 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1a431fdec2740b20-SYD
+    body:
+      encoding: UTF-8
+      string: |-
+        <div id='suggestionsList_main' class='gamelist_list'><div class='search_loading shadow_box back_blue'>We Found 1 Games for "Braid"</div> <li> <div class='gamelist_image back_black shadow_box'>
+        <a title='Braid' href='game.php?id=1290'>
+        <img style='width:100%;' src='http://howlongtobeat.com/gameimages/Braidlogo.jpg'/>
+        </a>
+        </div> <div class='gamelist_details shadow_box back_darkish'>
+        <h3 class='' style=''>
+        <a class='text_yellow' title='Braid' href='game.php?id=1290'>Braid</a>
+        </h3>
+        <div class='back_darkish' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>5 Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div class='gamelist_tidbit time_100'>6 Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_100'>7 Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>5&#189; Hours</div></div> </div> <div class='back_dark'>
+        <strong class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit text_white' title='Submit Your Time' href='submit_add.php?gid=1290'>+ Your Time</a> </div>
+        </div>
+        </li></div>
+        <div class='clear'></div>
+    http_version: 
+  recorded_at: Mon, 05 Jan 2015 22:31:11 GMT
+recorded_with: VCR 2.9.3
