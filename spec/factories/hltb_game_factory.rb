@@ -1,7 +1,7 @@
 require 'hltb/game'
 
 FactoryGirl.define do
-  factory :htlb_game, class: HLTB::Game do
+  factory :hltb_game, class: HLTB::Game do
     ignore do
       name "Test"
       url  "http://foo.baz"
@@ -13,7 +13,7 @@ FactoryGirl.define do
     initialize_with{ HLTB::Game.new(name, url, main_length, main_with_extras_length, completionist_length) }
   end
 
-  factory :metal_gear_rising, parent: :htlb_game do
+  factory :metal_gear_rising, parent: :hltb_game do
     name "Metal Gear Rising: Revengeance"
     url "http://howlongtobeat.com/game.php?id=5905"
     main_length 6.5
