@@ -7,7 +7,7 @@ describe HLTB::Parser do
   let(:parser) {HLTB::Parser.new(search_result)}
   let(:empty_parser) {HLTB::Parser.new(no_search_results)}
   let(:invalid_parser) {HLTB::Parser.new('garbageinput1920388oi')}
-  let(:metal_gear) {build(:metal_gear_rising)}
+  let(:multi_search_result) {[build(:metal_gear_rising), build(:metal_gear_blade_wolf), build(:metal_gear_jetstream)]}
 
   it 'throws an exception if it is initialized with no data' do
     expect{HLTB::Parser.new}.to raise_error(ArgumentError)
@@ -17,7 +17,7 @@ describe HLTB::Parser do
     context 'the search_result is valid' do
       context 'there are search results' do
         it 'returns an array containing parsed HLTBGame results' do
-          expect(parser.call).to eq([metal_gear]) 
+          expect(parser.call).to eq(multi_search_result) 
         end
       end
 
