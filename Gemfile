@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'websocket-rails'
 gem 'nokogiri'
+gem 'steam-api'
 
 group :development do
   gem 'spring'
