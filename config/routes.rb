@@ -53,4 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root 'static#index'
+  get '/*path' => 'static#index', constraints: -> (req) { !(req.fullpath =~ /^\/assets\/.*/) }
 end

@@ -1,0 +1,12 @@
+{
+  "name": "steam-library-length",
+  "devDependencies" : {
+    "browserify": "~> 4.1",
+    "coffee-reactify": "~> 2.1.0",
+    "react-router-component": "~> 0.23"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

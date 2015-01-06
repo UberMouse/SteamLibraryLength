@@ -13,6 +13,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'websocket-rails'
 gem 'nokogiri'
 gem 'steam-api'
+gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
+gem "browserify-rails", "~> 0.5"
+gem 'therubyracer'
 
 group :development do
   gem 'spring'
