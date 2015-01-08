@@ -6,6 +6,6 @@ module.exports = flux.createStore {
     steamId: null
 }, [
   [constants.RESOLVE_SUCCESS, (payload)->
-    console.log('Resolved user to', payload.steamId)
+    console.log('Resolved user to', payload.steam_id)
   ],
 ]

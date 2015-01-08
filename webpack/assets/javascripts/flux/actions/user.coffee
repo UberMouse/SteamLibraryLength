@@ -5,5 +5,5 @@ Promise = require('bluebird')
 
 module.exports = flux.createActions
   resolveUser: [constants.RESOLVE, (userInfo)->
-    dispatcher.triggerAsync('user.resolve', {userInfo: userInfo})
+    dispatcher.triggerAsync('user.resolve', {user_info: userInfo})
   ]
