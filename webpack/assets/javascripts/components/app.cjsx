@@ -13,10 +13,12 @@ NotFoundHandler = React.createClass
     <h1>Not found</h1>
 
 App = React.createClass
+  displayName: 'SteamLibraryLength'
   render: ->
     <Pages path={@props.path}>
       <Page path="/" handler={HomePage} />
       <NotFound handler={NotFoundHandler} />
     </Pages>
 
+window.App = App
 module.exports = App

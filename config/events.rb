@@ -13,4 +13,7 @@ WebsocketRails::EventMap.describe do
   # The above will handle an event triggered on the client like `product.new`.
 
   subscribe :calculate_length_of_library, to: HomeController, with_method: :calculate_length_of_library
+  namespace :user do
+    subscribe :resolve, to: UserController, with_method: :resolve_user
+  end
 end

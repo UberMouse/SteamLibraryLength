@@ -1,9 +1,19 @@
 {
   "name": "steam-library-length",
+  "dependencies": {
+    "react-router-component": "~> 0.23",
+    "react-flux": "0.0.14",
+    "react": "~> 0.12",
+    "bluebird": "~> 2.6"
+  },
   "devDependencies" : {
-    "browserify": "~> 4.1",
-    "coffee-reactify": "~> 2.1.0",
-    "react-router-component": "~> 0.23"
+    "webpack": "~1.4.0",
+    "webpack-dev-server": "1.6.x",
+    "react-hot-loader": "*",
+    "cjsx-loader": "^1.1.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-react-transform": "^2.1.0",
+    "expose-loader": "*"
   },
   "license": "MIT",
   "engines": {

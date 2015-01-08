@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'static#index'
-  get '/*path' => 'static#index', constraints: -> (req) { !(req.fullpath =~ /^\/assets\/.*/) }
+  get '/*path' => 'static#index', constraints: -> (req) { !(req.fullpath =~ /^\/assets\/.*/) && !(req.fullpath =~ /^\/websocket/)}
 end
