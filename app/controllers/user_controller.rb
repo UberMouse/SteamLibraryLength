@@ -1,6 +1,6 @@
 class UserController < ApplicationController
   def resolve_user
-    steam_id = SteamVanityResolver.new.call(message[:user_info])
+    steam_id = SteamVanityResolver.new.call(message[:vanity_url])
 
     if steam_id.nil?
       trigger_failure({message: 'Steam vanity name invalid'})
