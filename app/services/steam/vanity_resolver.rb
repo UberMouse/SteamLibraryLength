@@ -1,4 +1,4 @@
-class SteamVanityResolver
+class Steam::VanityResolver
   def call(vanity_url)
     return vanity_url if is_steamid?(vanity_url)
 

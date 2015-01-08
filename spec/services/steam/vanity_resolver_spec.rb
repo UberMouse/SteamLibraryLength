@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SteamVanityResolver, :vcr do
+describe Steam::VanityResolver, :vcr do
   let(:resolver) {SteamVanityResolver.new}
   let(:valid_vanity_url) {"UberMouse"}
   let(:invalid_vanity_url){"UUbbeerrMmoouussee"}
