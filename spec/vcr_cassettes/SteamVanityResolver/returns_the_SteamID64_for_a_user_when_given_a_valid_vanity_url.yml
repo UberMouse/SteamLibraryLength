@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.steampowered.com/ISteamUser/ResolveVanityURL/v1?key=BE2DC879B4DFE16B0F428080031D7FF8&vanityurl=UberMouse
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 08 Jan 2015 01:59:22 GMT
+      Expires:
+      - Thu, 08 Jan 2015 01:59:22 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '70'
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"response\": {\n\t\t\"steamid\": \"76561197994157624\",\n\t\t\"success\":
+        1\n\t}\n}"
+    http_version: 
+  recorded_at: Thu, 08 Jan 2015 01:59:22 GMT
+recorded_with: VCR 2.9.3
