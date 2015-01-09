@@ -1,6 +1,8 @@
 require 'hltb/client'
 
 class GameLengthRetriever
+  LOOKUP_RATE = 2.seconds
+  
   def initialize
     @client = HLTB::Client.new
   end
@@ -16,6 +18,6 @@ class GameLengthRetriever
 
   private
   def lookup(game, index)
-    LookupGameForClient.new.async.later(index * 2, game)
+    LookupGameForClient.new.async.later(index * LOOKUP_RATE, game)
   end
 end
