@@ -8,9 +8,9 @@ class GameLengthRetriever
   end
 
   def call(games)
-    appids = games.map(&:appid)
-    existing_games = Game.where(appid: appids)
-    need_lookup = games.select{|g| !existing_games.any?{|eg| eg.appid == g.appid}}
+    app_ids = games.map(&:app_id)
+    existing_games = Game.where(app_id: app_ids)
+    need_lookup = games.select{|g| !existing_games.any?{|eg| eg.app_id == g.app_id}}
     need_lookup.each_with_index(&method(:lookup))
 
     existing_games
