@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.steampowered.com/ISteamUser/ResolveVanityURL/v1?key=BE2DC879B4DFE16B0F428080031D7FF8&vanityurl=UUbbeerrMmoouussee
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 09 Jan 2015 01:55:41 GMT
+      Expires:
+      - Fri, 09 Jan 2015 01:55:41 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '62'
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"response\": {\n\t\t\"success\": 42,\n\t\t\"message\": \"No match\"\n\t}\n}"
+    http_version: 
+  recorded_at: Fri, 09 Jan 2015 01:55:41 GMT
+recorded_with: VCR 2.9.3

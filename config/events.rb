@@ -16,4 +16,8 @@ WebsocketRails::EventMap.describe do
   namespace :user do
     subscribe :resolve, to: UserController, with_method: :resolve_user
   end
+
+  namespace :games do
+    subscribe :load, to: GamesController, with_method: :load_games
+  end
 end

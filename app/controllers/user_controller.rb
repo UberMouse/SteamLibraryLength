@@ -1,3 +1,5 @@
+require 'steam/vanity_resolver'
+
 class UserController < ApplicationController
   def resolve_user
     steam_id = Steam::VanityResolver.new.call(message[:vanity_url])

@@ -1,7 +1,8 @@
 require 'spec_helper'
+require 'steam/vanity_resolver'
 
 describe Steam::VanityResolver, :vcr do
-  let(:resolver) {SteamVanityResolver.new}
+  let(:resolver) {Steam::VanityResolver.new}
   let(:valid_vanity_url) {"UberMouse"}
   let(:invalid_vanity_url){"UUbbeerrMmoouussee"}
   let(:steam_id){"76561197994157624"}

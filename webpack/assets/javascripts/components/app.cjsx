@@ -1,5 +1,5 @@
 # @cjsx React.DOM 
-
+require('events')
 React = require('react')
 Router = require('react-router-component')
 Pages = Router.Pages

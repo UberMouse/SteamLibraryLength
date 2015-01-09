@@ -31,9 +31,9 @@ module HLTB
     end
 
     def parse_time(time)
-      cleaned_time = "0" if cleaned_time == "N/A"
+      cleaned_time = "0" if time == "N/A" || time.nil?
 
-      cleaned_time = time.text.sub('½', '.5').sub(' Hours', '')
+      cleaned_time ||= time.text.sub('½', '.5').sub(' Hours', '')
       cleaned_time.to_f
     end
   end

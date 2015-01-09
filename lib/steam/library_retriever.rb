@@ -9,8 +9,9 @@ module Steam
 
   private
     def parse(game)
-      image_url = make_image_url(game["appid"], game["img_logo_url"])
-      Steam::Game.new(game["name"], game["playtime_forever"], image_url)
+      appid = game["appid"]
+      image_url = make_image_url(appid, game["img_logo_url"])
+      Steam::Game.new(appid, game["name"], game["playtime_forever"], image_url)
     end
 
     def make_image_url(appid, img_logo_url)
