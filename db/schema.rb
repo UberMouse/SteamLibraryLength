@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20150109013812) do
   enable_extension "plpgsql"
 
   create_table "games", force: true do |t|
-    t.integer "appid"
+    t.integer "app_id"
     t.string  "name"
     t.float   "main_length"
     t.float   "main_with_extras_length"

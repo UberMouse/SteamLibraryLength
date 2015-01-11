@@ -16,7 +16,7 @@ class GameLookup
 
     ActiveRecord::Base.connection_pool.with_connection do
       @game_model = Game.create(
-        appid: game.appid,
+        app_id: game.app_id,
         name: game.name,
         main_length: hltb_game.main_length,
         main_with_extras_length: hltb_game.main_with_extras_length,
