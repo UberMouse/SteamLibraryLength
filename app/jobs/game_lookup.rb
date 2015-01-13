@@ -11,7 +11,7 @@ class GameLookup
     hltb_game = @client.lookup(game.name)
     if hltb_game.nil?
       puts "No result for #{game}"
-      return
+      hltb_game = OpenStruct.new(main_length: 0, main_with_extras_length: 0, completionist_length: 0)
     end
 
     ActiveRecord::Base.connection_pool.with_connection do
