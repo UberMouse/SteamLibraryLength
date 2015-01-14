@@ -5,7 +5,7 @@ http_interactions:
     uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
     body:
       encoding: US-ASCII
-      string: queryString=Sid+Meier%27s+Civilization+IV
+      string: queryString=sid+meiers+civilization+iv
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jan 2015 04:02:47 GMT
+      - Wed, 14 Jan 2015 22:18:12 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=0a7f09d5dd52ac73c0e685e08aa483dd; path=/
-      - __cfduid=d823d089556a716edbbdb24ac6c93412e1421208167; expires=Thu, 14-Jan-16
-        04:02:47 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=91780c3f1621650358b87a26817b9081; path=/
+      - __cfduid=dc2eb4bced18fdfeb86cab102dffada4a1421273892; expires=Thu, 14-Jan-16
+        22:18:12 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,13 +45,13 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a86f0a5e9b70b26-SYD
+      - 1a8d35429a520b26-SYD
     body:
       encoding: UTF-8
       string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
-        shadow_box back_blue'>We Found 17 Games for \"Sid Meier's Civilization IV\"</div>
-        <li> <div class='gamelist_image back_black shadow_box'>\n<a title='Sid Meier's
-        Civilization V' href='game.php?id=8510'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        shadow_box back_blue'>We Found 17 Games for \"sid meiers civilization iv\"</div>\t<li>\t<div
+        class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid
+        Meier's Civilization V' href='game.php?id=8510'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
         src='http://howlongtobeat.com/gameimages/CIVILIZATION-V-FRONT-OF-BOX.jpg'
         />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
         shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
@@ -89,9 +89,9 @@ http_interactions:
         back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
         IV' href='game.php?id=8505'>\n\t\t\t\t\t\t\t\t<img style='width:100%;' src='http://howlongtobeat.com/gameimages/256px-CivIVboxshot.jpg'
         />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
-        shadow_box back_darkish'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
-        class='text_yellow' title='Sid Meier's Civilization IV' href='game.php?id=8505'>Sid
-        Meier's Civilization IV</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_darkish'
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization IV' href='game.php?id=8505'>Sid
+        Meier's Civilization IV</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
         style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
         class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_70'>8&#189;
         Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
@@ -343,5 +343,5 @@ http_interactions:
         Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div
         class='clear'></div>"
     http_version: 
-  recorded_at: Wed, 14 Jan 2015 04:02:47 GMT
+  recorded_at: Wed, 14 Jan 2015 22:18:12 GMT
 recorded_with: VCR 2.9.3

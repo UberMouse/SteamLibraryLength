@@ -5,7 +5,7 @@ http_interactions:
     uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
     body:
       encoding: US-ASCII
-      string: queryString=Metal+Gear+Rising%3A+Revengeance
+      string: queryString=metal+gear+rising+revengeance
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jan 2015 04:02:48 GMT
+      - Wed, 14 Jan 2015 22:18:10 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=042ac80df4f8d07299c7e7468c837a7a; path=/
-      - __cfduid=d823d089556a716edbbdb24ac6c93412e1421208167; expires=Thu, 14-Jan-16
-        04:02:47 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=5add89e4da918354e5c9edd54dcae5a3; path=/
+      - __cfduid=dedaec64f2deb41f37b68e7d11744c4201421273890; expires=Thu, 14-Jan-16
+        22:18:10 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,45 +45,63 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a86f0a9eb8c0b26-SYD
+      - 1a8d3537692a0b20-SYD
     body:
       encoding: UTF-8
-      string: |-
-        <div id='suggestionsList_main' class='gamelist_list'><div class='search_loading shadow_box back_blue'>We Found 3 Games for "Metal Gear Rising: Revengeance"</div> <li> <div class='gamelist_image back_black shadow_box'>
-        <a title='Metal Gear Rising: Revengeance' href='game.php?id=5905'>
-        <img style='width:100%;' src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg'/>
-        </a>
-        </div> <div class='gamelist_details shadow_box back_darkish'>
-        <h3 class='' style=''>
-        <a class='text_yellow' title='Metal Gear Rising: Revengeance' href='game.php?id=5905'>Metal Gear Rising: Revengeance</a>
-        </h3>
-        <div class='back_darkish' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>6&#189; Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div class='gamelist_tidbit time_100'>9&#189; Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_50'>25&#189; Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>7&#189; Hours</div></div> </div> <div class='back_dark'>
-        <strong class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit text_white' title='Submit Your Time' href='submit_add.php?gid=5905'>+ Your Time</a> </div>
-        </div>
-        </li> <li> <div class='gamelist_image back_black shadow_box'>
-        <a title='Metal Gear Rising: Revengeance - Blade Wolf DLC' href='game.php?id=5906'>
-        <img style='width:100%;' src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg'/>
-        </a>
-        </div> <div class='gamelist_details shadow_box back_white'>
-        <h3 class='' style=''>
-        <a class='text_blue' title='Metal Gear Rising: Revengeance - Blade Wolf DLC' href='game.php?id=5906'>Metal Gear Rising: Revengeance - Blade Wolf DLC</a>
-        </h3>
-        <div class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_80'>1 Hour</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div class='gamelist_tidbit time_50'>1 Hour</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_90'>1 Hour</div></div> </div> <div class='back_dark'>
-        <strong class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit text_white' title='Submit Your Time' href='submit_add.php?gid=5906'>+ Your Time</a> </div>
-        </div>
-        </li> <li> <div class='gamelist_image back_black shadow_box'>
-        <a title='Metal Gear Rising: Revengeance - Jetstream DLC' href='game.php?id=5907'>
-        <img style='width:100%;' src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg'/>
-        </a>
-        </div> <div class='gamelist_details shadow_box back_white'>
-        <h3 class='' style=''>
-        <a class='text_blue' title='Metal Gear Rising: Revengeance - Jetstream DLC' href='game.php?id=5907'>Metal Gear Rising: Revengeance - Jetstream DLC</a>
-        </h3>
-        <div class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_90'>1 Hour</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div class='gamelist_tidbit time_50'>2 Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>1 Hour</div></div> </div> <div class='back_dark'>
-        <strong class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit text_white' title='Submit Your Time' href='submit_add.php?gid=5907'>+ Your Time</a> </div>
-        </div>
-        </li></div>
-        <div class='clear'></div>
+      string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
+        shadow_box back_blue'>We Found 3 Games for \"metal gear rising revengeance\"</div>\t<li>\t<div
+        class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Metal
+        Gear Rising: Revengeance' href='game.php?id=5905'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Metal Gear Rising:
+        Revengeance' href='game.php?id=5905'>Metal Gear Rising: Revengeance</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>6&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_100'>9&#189; Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_50'>25&#189; Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>7&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=5905'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Metal Gear Rising: Revengeance
+        - Blade Wolf DLC' href='game.php?id=5906'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Metal Gear Rising:
+        Revengeance - Blade Wolf DLC' href='game.php?id=5906'>Metal Gear Rising: Revengeance
+        - Blade Wolf DLC</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_80'>1
+        Hour</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_50'>1 Hour</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_90'>1 Hour</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=5906'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Metal Gear Rising: Revengeance
+        - Jetstream DLC' href='game.php?id=5907'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/MetalGearRisingRevengeance.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Metal Gear Rising:
+        Revengeance - Jetstream DLC' href='game.php?id=5907'>Metal Gear Rising: Revengeance
+        - Jetstream DLC</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_90'>1
+        Hour</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_50'>2 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>1
+        Hour</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=5907'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div class='clear'></div>"
     http_version: 
-  recorded_at: Wed, 14 Jan 2015 04:02:48 GMT
+  recorded_at: Wed, 14 Jan 2015 22:18:11 GMT
 recorded_with: VCR 2.9.3
