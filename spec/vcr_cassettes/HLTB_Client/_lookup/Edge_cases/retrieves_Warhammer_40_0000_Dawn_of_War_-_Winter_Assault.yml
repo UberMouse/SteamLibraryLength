@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
+    body:
+      encoding: US-ASCII
+      string: queryString=warhammer+40%2C000+dawn+of+war++winter+assault
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.howlongtobeat.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 14 Jan 2015 21:58:30 GMT
+      Content-Type:
+      - text/html; charset=windows-1252
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=4f0edefb8bb2efe53e03b21719328f67; path=/
+      - __cfduid=d64f670562fe6141a079ee6b15a07a6701421272709; expires=Thu, 14-Jan-16
+        21:58:29 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1a8d1864b0460b20-SYD
+    body:
+      encoding: UTF-8
+      string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
+        shadow_box back_blue'>We Found 1 Games for \"warhammer 40,000 dawn of war
+        \ winter assault\"</div>\t<li>\t<div class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a
+        title='Warhammer 40,000: Dawn of War - Winter Assault' href='game.php?id=11042'>\n\t\t\t\t\t\t\t\t<img
+        style='width:100%;' src='http://howlongtobeat.com/gameimages/256px-WA_Box_art.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Warhammer 40,000: Dawn of War - Winter Assault' href='game.php?id=11042'>Warhammer
+        40,000: Dawn of War - Winter Assault</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_70'>10&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_50'>12 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>22 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_90'>12
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=11042'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div class='clear'></div>"
+    http_version: 
+  recorded_at: Wed, 14 Jan 2015 21:58:30 GMT
+recorded_with: VCR 2.9.3

@@ -35,6 +35,10 @@ describe HLTB::Client, :vcr do
       it 'retrieves Fallout 3 - Game of the Year Edition' do
         expect(client.lookup('Fallout 3 - Game of the Year Edition')).to eq(build(:fallout_3))
       end
+
+      it 'retrieves Warhammer 40,0000: Dawn of War - Winter Assault' do
+        expect(client.lookup('Warhammer 40,000: Dawn of War - Winter Assault')).to eq(build(:w40k_winter_assault))
+      end
     end
   end
 end

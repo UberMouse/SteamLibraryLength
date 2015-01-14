@@ -76,4 +76,12 @@ FactoryGirl.define do
     main_with_extras_length 61
     completionist_length 123.5
   end
+
+  factory :w40k_winter_assault, parent: :hltb_game do
+    name "Warhammer 40,000: Dawn of War - Winter Assault"
+    url "http://howlongtobeat.com/game.php?id=11042"
+    main_length 10.5
+    main_with_extras_length 12
+    completionist_length 22
+  end
 end
