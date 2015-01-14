@@ -12,7 +12,7 @@ module HLTB
     end
 
     def lookup(game)
-      cleaned_name = @cleaner.call(game)
+      cleaned_name = normalize_name(@cleaner.call(game))
 
       search_result = search(cleaned_name)
       games = parse_results(search_result)
@@ -31,8 +31,7 @@ module HLTB
     end
 
     def find_matching_game(game, games)
-      stripped_name = normalize_name(game)
-      candidates = games.select{|g| normalize_name(g.title) == stripped_name}
+      candidates = games.select{|g| normalize_name(g.title) == game}
       raise Exception, "more than one game with same name for #{game}" if candidates.length > 1
 
       candidates.first
