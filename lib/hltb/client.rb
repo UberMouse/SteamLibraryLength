@@ -38,7 +38,7 @@ module HLTB
     end
 
     def normalize_name(name)
-      name.gsub(/[^A-Za-z0-9\s]/i, '')
+      name.gsub(/[^A-Za-z0-9\s,]/i, '')
           .downcase
           .strip
     end
