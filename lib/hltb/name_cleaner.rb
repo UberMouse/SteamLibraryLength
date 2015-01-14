@@ -14,5 +14,10 @@ module HLTB
     def fix_steam_edition(game_name)
       game_name.sub(/Steam Edition/i, '')
     end
+
+    def fix_ip_rights(game_name)
+      game_name.gsub(/™/i, '')
+               .gsub(/®/i, '')
+    end
   end
 end
