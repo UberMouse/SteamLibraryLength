@@ -18,5 +18,15 @@ describe HLTB::Client, :vcr do
         expect(client.lookup('Metal Gear Rising: Revengeance')).to eq(multi_result)
       end
     end
+
+    context "Edge cases" do
+      it 'retrieves Civilization IV' do
+        expect(client.lookup("Sid Meier's Civilization IV")).to eq(build(:civ_iv))
+      end
+
+      it 'retrieves Batman: Arkham Asylum GOTY Edition' do
+        expect(client.lookup('Batman: Arkham Asylum GOTY Edition')).to eq(build(:batman_arkham_asylum))
+      end
+    end
   end
 end

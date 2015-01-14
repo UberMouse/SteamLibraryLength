@@ -18,7 +18,7 @@ FactoryGirl.define do
     url "http://howlongtobeat.com/game.php?id=5905"
     main_length 6.5
     main_with_extras_length 9.5
-    completionist_length 25
+    completionist_length 25.5
   end
   
   factory :metal_gear_blade_wolf, parent: :hltb_game do
@@ -43,5 +43,21 @@ FactoryGirl.define do
     main_length 5
     main_with_extras_length 6
     completionist_length 7
+  end
+
+  factory :civ_iv, parent: :hltb_game do
+    name "Sid Meier's Civilization IV"
+    url "http://howlongtobeat.com/game.php?id=8505"
+    main_length 8.5
+    main_with_extras_length 22
+    completionist_length 30
+  end
+
+  factory :batman_arkham_asylum, parent: :hltb_game do
+    name "Batman: Arkham Asylum"
+    url "http://howlongtobeat.com/game.php?id=881"
+    main_length 12
+    main_with_extras_length 16.5
+    completionist_length 25.5
   end
 end

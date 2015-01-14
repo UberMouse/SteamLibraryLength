@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 05 Jan 2015 22:31:11 GMT
+      - Wed, 14 Jan 2015 04:02:47 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=9dedf3dd5244d3e4901712e375e39a6e; path=/
-      - __cfduid=d0284558c3850c6d448aa9b7d1fe317791420497069; expires=Tue, 05-Jan-16
-        22:31:09 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=419c0efbd01d4646d5efdc174ccb17dc; path=/
+      - __cfduid=d0ba7a3a716b2875cc38075daf7ae87801421208166; expires=Thu, 14-Jan-16
+        04:02:46 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,7 +45,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a431fdec2740b20-SYD
+      - 1a86f0a219c10b20-SYD
     body:
       encoding: UTF-8
       string: |-
@@ -63,5 +63,5 @@ http_interactions:
         </li></div>
         <div class='clear'></div>
     http_version: 
-  recorded_at: Mon, 05 Jan 2015 22:31:11 GMT
+  recorded_at: Wed, 14 Jan 2015 04:02:47 GMT
 recorded_with: VCR 2.9.3

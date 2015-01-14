@@ -1,0 +1,347 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
+    body:
+      encoding: US-ASCII
+      string: queryString=Sid+Meier%27s+Civilization+IV
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.howlongtobeat.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 14 Jan 2015 04:02:47 GMT
+      Content-Type:
+      - text/html; charset=windows-1252
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=0a7f09d5dd52ac73c0e685e08aa483dd; path=/
+      - __cfduid=d823d089556a716edbbdb24ac6c93412e1421208167; expires=Thu, 14-Jan-16
+        04:02:47 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1a86f0a5e9b70b26-SYD
+    body:
+      encoding: UTF-8
+      string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
+        shadow_box back_blue'>We Found 17 Games for \"Sid Meier's Civilization IV\"</div>
+        <li> <div class='gamelist_image back_black shadow_box'>\n<a title='Sid Meier's
+        Civilization V' href='game.php?id=8510'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/CIVILIZATION-V-FRONT-OF-BOX.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization V' href='game.php?id=8510'>Sid
+        Meier's Civilization V</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>29&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_90'>65&#189; Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_50'>553 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>67&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8510'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization:
+        Beyond Earth' href='game.php?id=21390'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Civilization_Beyond_Earth_cover_art.png'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization: Beyond Earth' href='game.php?id=21390'>Sid
+        Meier's Civilization: Beyond Earth</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>25&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>45 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>68&#189; Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>36&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=21390'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        IV' href='game.php?id=8505'>\n\t\t\t\t\t\t\t\t<img style='width:100%;' src='http://howlongtobeat.com/gameimages/256px-CivIVboxshot.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_darkish'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_yellow' title='Sid Meier's Civilization IV' href='game.php?id=8505'>Sid
+        Meier's Civilization IV</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_darkish'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_70'>8&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_60'>22 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>30 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>14
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8505'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        III' href='game.php?id=8501'>\n\t\t\t\t\t\t\t\t<img style='width:100%;' src='http://howlongtobeat.com/gameimages/250px-Civilization_III_Coverart.png'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization III' href='game.php?id=8501'>Sid
+        Meier's Civilization III</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>22&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>34&#189; Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>69 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>33
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8501'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        V: Brave New World' href='game.php?id=12144'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/civ5bravenewworld.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        V: Brave New World' href='game.php?id=12144'>Sid Meier's Civilization V: Brave
+        New World</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>13&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>72 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>30&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=12144'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        IV: Warlords' href='game.php?id=8508'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Warlordsboxart.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        IV: Warlords' href='game.php?id=8508'>Sid Meier's Civilization IV: Warlords</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>5&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>6 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>5&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8508'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        IV: Colonization' href='game.php?id=8507'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/256px-Civ4colon.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        IV: Colonization' href='game.php?id=8507'>Sid Meier's Civilization IV: Colonization</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>10&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>11 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>10&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8507'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        IV: Beyond the Sword' href='game.php?id=8506'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Civilization_IV_-_Beyond_the_Sword_Coverart.png'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization IV: Beyond the Sword' href='game.php?id=8506'>Sid
+        Meier's Civilization IV: Beyond the Sword</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>18
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>19 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>19 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_50'>20
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8506'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        III: Complete' href='game.php?id=8502'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/SidMeiersCivilizationIIIComplete.JPG'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization III: Complete' href='game.php?id=8502'>Sid
+        Meier's Civilization III: Complete</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_40'>20&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>60 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_40'>34&#189;
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8502'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        V: Gods & Kings' href='game.php?id=8512'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/250px-Civ_V_Gods&KingsBoxArt.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization V: Gods & Kings' href='game.php?id=8512'>Sid
+        Meier's Civilization V: Gods & Kings</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_60'>3&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>26 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>55&#189; Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_60'>10
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8512'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        Revolution' href='game.php?id=8509'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Civrev_box.png' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        Revolution' href='game.php?id=8509'>Sid Meier's Civilization Revolution</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_60'>4&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_40'>16 Hours</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_40'>37 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_80'>10
+        Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
+        class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=8509'>+ Your
+        Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        II: Test of Time' href='game.php?id=8500'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Civ2testoftimebox.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        II: Test of Time' href='game.php?id=8500'>Sid Meier's Civilization II: Test
+        of Time</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white' style='min-height:
+        40px;padding: 4px 5px;'><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        Story</div><div class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main + Extra</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_00'>N/A</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8500'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization:
+        Call to Power' href='game.php?id=8513'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/240px-CivcalltopoweTPopeningscreen.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization: Call to Power' href='game.php?id=8513'>Sid
+        Meier's Civilization: Call to Power</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8513'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        II' href='game.php?id=8499'>\n\t\t\t\t\t\t\t\t<img style='width:100%;' src='http://howlongtobeat.com/gameimages/Sid_Meier_Civilization_II.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization II' href='game.php?id=8499'>Sid
+        Meier's Civilization II</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_50'>16&#189;
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_40'>24
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_50'>22&#189; Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8499'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization'
+        href='game.php?id=8498'>\n\t\t\t\t\t\t\t\t<img style='width:100%;' src='http://howlongtobeat.com/gameimages/256px-Civilizationboxart.jpg'
+        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
+        shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
+        class='text_blue' title='Sid Meier's Civilization' href='game.php?id=8498'>Sid
+        Meier's Civilization</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_50'>11
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
+        + Extra</div><div class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_40'>500
+        Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_50'>46&#189; Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8498'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        III: Play the World' href='game.php?id=8504'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/250px-Civiiiplaytheworld.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        III: Play the World' href='game.php?id=8504'>Sid Meier's Civilization III:
+        Play the World</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div class='back_white'
+        style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8504'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li>\t<li>\t<div class='gamelist_image
+        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Sid Meier's Civilization
+        III: Conquests' href='game.php?id=8503'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/250px-Civ_iii_conquests.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Sid Meier's Civilization
+        III: Conquests' href='game.php?id=8503'>Sid Meier's Civilization III: Conquests</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Main + Extra</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Completionist</div><div class='gamelist_tidbit time_00'>N/A</div></div><div
+        style='display:inline-block;'><div class='gamelist_tidbit'>Combined</div><div
+        class='gamelist_tidbit time_00'>N/A</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div
+        class='back_dark'>\n\t\t\t\t\t\t\t\t<strong class='gamelist_tidbit text_white'>Submit:</strong><a
+        class='gamelist_tidbit text_white' title='Submit Your Time' \thref='submit_add.php?gid=8503'>+
+        Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div
+        class='clear'></div>"
+    http_version: 
+  recorded_at: Wed, 14 Jan 2015 04:02:47 GMT
+recorded_with: VCR 2.9.3

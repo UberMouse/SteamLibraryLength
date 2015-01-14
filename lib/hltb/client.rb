@@ -1,18 +1,26 @@
 require 'hltb/parser'
+require 'hltb/name_cleaner'
 require "net/http"
 require "uri"
 
+
 module HLTB
   class Client
+
+    def initialize()
+      @cleaner = HLTB::NameCleaner.new
+    end
     def lookup(game)
-      search_result = search(game)
+      cleaned_name = @cleaner.call(game)
+
+      search_result = search(cleaned_name)
       games = parse_results(search_result)
-      find_matching_game(game, games)
+      find_matching_game(cleaned_name, games)
     end
 
     def search(game)
       search_endpoint = URI.parse('http://www.howlongtobeat.com/search_main.php?t=games&page=1&sorthead=popular&sortd=Normal%20Order&plat=&detail=0')
-      response = Net::HTTP.post_form(search_endpoint, {queryString: game}) 
+      response = Net::HTTP.post_form(search_endpoint, {queryString: game})
       response.body
     end
 
