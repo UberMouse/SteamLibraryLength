@@ -20,7 +20,7 @@ module HLTB
 
     def parse_game(game_node) 
       header_node = game_node.xpath('.//h3/a')
-      title = header_node.attribute('title').value
+      title = header_node.text
       relative_url = header_node.attribute('href').value
       times = game_node.xpath('.//div/div/div')
       main = parse_time(times[1])
