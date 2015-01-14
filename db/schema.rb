@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150109013812) do
+ActiveRecord::Schema.define(version: 20150114210456) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20150109013812) do
     t.float   "main_length"
     t.float   "main_with_extras_length"
     t.float   "completionist_length"
+    t.boolean "game_found_on_hltb"
   end
 
 end
