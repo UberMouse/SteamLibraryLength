@@ -27,6 +27,14 @@ describe HLTB::Client, :vcr do
       it 'retrieves Batman: Arkham Asylum GOTY Edition' do
         expect(client.lookup('Batman: Arkham Asylum GOTY Edition')).to eq(build(:batman_arkham_asylum))
       end
+
+      it 'retrieves Red Faction Guerrilla Steam Edition' do
+        expect(client.lookup('Red Faction Guerrilla Steam Edition')).to eq(build(:red_faction_guerrilla))
+      end
+
+      it 'retrieves Fallout 3 - Game of the Year Edition' do
+        expect(client.lookup('Fallout 3 - Game of the Year Edition')).to eq(build(:fallout_3))
+      end
     end
   end
 end

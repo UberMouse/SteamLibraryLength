@@ -60,4 +60,20 @@ FactoryGirl.define do
     main_with_extras_length 16.5
     completionist_length 25.5
   end
+
+  factory :red_faction_guerrilla, parent: :hltb_game do
+    name "Red Faction: Guerrilla"
+    url "http://howlongtobeat.com/game.php?id=7689"
+    main_length 14
+    main_with_extras_length 20.5
+    completionist_length 36.5
+  end
+
+  factory :fallout_3, parent: :hltb_game do
+    name "Fallout 3"
+    url "http://howlongtobeat.com/game.php?id=3340"
+    main_length 25.5
+    main_with_extras_length 61
+    completionist_length 123.5
+  end
 end
