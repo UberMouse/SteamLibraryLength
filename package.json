@@ -2,7 +2,7 @@
   "name": "steam-library-length",
   "dependencies": {
     "react-router-component": "~> 0.23",
-    "react-flux": "0.0.14",
+    "react-flux": "git+ssh://git@github.com:UberMouse/ReactFlux.git",
     "react": "~> 0.12",
     "bluebird": "~> 2.6"
   },

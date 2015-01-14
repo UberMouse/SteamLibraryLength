@@ -7,6 +7,5 @@ module.exports = flux.createActions
     dispatcher.triggerAsync('games.load', {steam_id: steamId})
   ]
   newGame: [constants.NEW, (game)->
-    console.log('new game', game)
     game
   ]

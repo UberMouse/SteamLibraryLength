@@ -25,22 +25,37 @@ GamesLoading = React.createClass
 Game = React.createClass
   displayName: 'Game'
   render: ->
-    <p>{@props.game.name}</p>
-      
+    <tr>
+      <td>{@props.game.name}</td>
+      <td>{@props.game.main_length || 'N/A'}</td>
+      <td>{@props.game.main_with_extras_length || 'N/A'}</td>
+      <td>{@props.game.completionist_length || 'N/A'}</td>
+    </tr>
+
 DisplayGames = React.createClass
   displayName: 'DisplayGames'
   render: ->
-    games = @props.game.map (game)->
-      <Game game={game} />
-    {games}
+    games = @props.games.map (game)->
+      <Game game={game} key={game.app_id}/>
+    <table>
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Main/Coop Length</td>
+          <td>Main + Extras/Versus Length</td>
+          <td>Completionist Length</td>
+         </tr>
+      </thead>
+      {games}
+    </table>
 
 CalculateLengths = React.createClass
   mixins: [gameStore.mixin()]
   displayName: 'CalculateLengths'
   getStateFromStores: ->
-    games: gameStore.state.get('games')
-    loading: gameStore.state.get('loading')
-    loadProgress: gameStore.state.get('loadProgress')
+    games: @store.get('games')
+    loading: @store.get('loading')
+    loadProgress: @store.get('loadProgress')
   render: ->
     target = null
     if @state.games?.length
@@ -50,8 +65,8 @@ CalculateLengths = React.createClass
 
     gamesLoading = if(@state.loading) then <GamesLoading loadedGames={@state.loadProgress.loaded} totalGames={@state.loadProgress.total} /> else null
     <div>
-      {gamesLoading}
-      {target}
+      <div>{gamesLoading}</div>
+      <div>{target}</div>
     </div>
 
 EnterSteamInformation = React.createClass
