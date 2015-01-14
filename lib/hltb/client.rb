@@ -12,7 +12,7 @@ module HLTB
     end
 
     def lookup(game)
-      cleaned_name = normalize_name(@cleaner.call(game))
+      cleaned_name = @cleaner.call(game, &method(:normalize_name))
 
       search_result = search(cleaned_name)
       games = parse_results(search_result)
