@@ -11,7 +11,7 @@ describe Steam::LibraryRetriever, :vcr do
   it 'returns a list of a users games when called' do
     games = retriever.call(steam_id)
 
-    expect(games.length).to eq(361)
+    expect(games.length).to eq(364)
     expect(games.first).to eq(first_game)
     expect(games.last).to eq(last_game)
   end
