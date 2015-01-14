@@ -84,4 +84,12 @@ FactoryGirl.define do
     main_with_extras_length 12
     completionist_length 22
   end
+
+  factory :sleeping_dogs, parent: :hltb_game do
+    name "Sleeping Dogs"
+    url "http://howlongtobeat.com/game.php?id=8640"
+    main_length 15
+    main_with_extras_length 21.5
+    completionist_length 32
+  end
 end

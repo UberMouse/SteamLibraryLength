@@ -39,6 +39,10 @@ describe HLTB::Client, :vcr do
       it 'retrieves Warhammer 40,0000: Dawn of War - Winter Assault' do
         expect(client.lookup('Warhammer 40,000: Dawn of War - Winter Assault')).to eq(build(:w40k_winter_assault))
       end
+
+      it 'retrieves Sleeping Dogs™' do
+        expect(client.lookup('Sleeping Dogs™')).to eq(build(:sleeping_dogs))
+      end
     end
   end
 end
