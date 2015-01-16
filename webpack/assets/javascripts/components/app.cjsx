@@ -2,11 +2,12 @@
 require('events')
 React = require('react')
 Router = require('react-router-component')
-Pages = Router.Pages
-Page = Router.Page
+Locations = Router.Locations
+Location = Router.Location
 NotFound = Router.NotFound
 
-HomePage = require('components/pages/home_page')
+HomePage = require('components/pages/home')
+ViewGamesPage = require('components/pages/view_games')
 
 NotFoundHandler = React.createClass
   render: ->
@@ -15,10 +16,11 @@ NotFoundHandler = React.createClass
 App = React.createClass
   displayName: 'SteamLibraryLength'
   render: ->
-    <Pages path={@props.path}>
-      <Page path="/" handler={HomePage} />
+    <Locations path={@props.path}>
+      <Location path="/" handler={HomePage} />
+      <Location path="/games" handler={ViewGamesPage} />
       <NotFound handler={NotFoundHandler} />
-    </Pages>
+    </Locations>
 
 window.App = App
 module.exports = App

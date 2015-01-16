@@ -21,10 +21,12 @@ store = flux.createStore {
   [constants.NEW_SUCCESS, (payload)->
     games = @get('games')
     games.push(payload)
+    loaded = @get('loadProgress.loaded') + 1
     @setState {
       games: games
+      loading: loaded < @get('loadProgress.total')
       loadProgress:
-        loaded: @get('loadProgress.loaded') + 1
+        loaded: loaded
     }
   ],
 ]
