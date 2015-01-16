@@ -5,7 +5,7 @@ class LookupGameForClient
     puts "Looking up #{game_to_lookup}"
     retrieved_game = GameLookup.new.perform(game_to_lookup)
     return if retrieved_game.nil?
-    WebsocketRails[:games].trigger(:new_game, retrieved_game)
+    WebsocketRails[:games].trigger(:new_game, HltbWithSteamPlaytime.new(retrieved_game, game_to_lookup))
   end
 
   def later(sec, args)

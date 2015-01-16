@@ -13,7 +13,7 @@ class GameLengthRetriever
     need_lookup = games.select{|g| !existing_games.any?{|eg| eg.app_id == g.app_id}}
     need_lookup.each_with_index(&method(:lookup))
 
-    existing_games
+    existing_games.zip(games - need_lookup).map{|game, steam_game| HltbWithSteamPlaytime.new(game, steam_game).to_json}
   end
 
   private
