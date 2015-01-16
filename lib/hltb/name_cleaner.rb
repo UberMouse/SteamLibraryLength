@@ -18,6 +18,7 @@ module HLTB
     def fix_ip_rights(game_name)
       game_name.gsub(/™/i, '')
                .gsub(/®/i, '')
+               .gsub(/\(TM\)/i, '')
     end
   end
 end
