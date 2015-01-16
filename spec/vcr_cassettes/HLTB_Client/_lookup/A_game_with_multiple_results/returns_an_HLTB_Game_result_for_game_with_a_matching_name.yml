@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jan 2015 22:18:10 GMT
+      - Fri, 16 Jan 2015 03:28:06 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=5add89e4da918354e5c9edd54dcae5a3; path=/
-      - __cfduid=dedaec64f2deb41f37b68e7d11744c4201421273890; expires=Thu, 14-Jan-16
-        22:18:10 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=119f39bfcf2ea53213e060c5e7926d13; path=/
+      - __cfduid=d57f0cfa22123315bdd0010c8bb8f241e1421378886; expires=Sat, 16-Jan-16
+        03:28:06 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,7 +45,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a8d3537692a0b20-SYD
+      - 1a97389802ba0b20-SYD
     body:
       encoding: UTF-8
       string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
@@ -103,5 +103,5 @@ http_interactions:
         text_white' title='Submit Your Time' \thref='submit_add.php?gid=5907'>+ Your
         Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div class='clear'></div>"
     http_version: 
-  recorded_at: Wed, 14 Jan 2015 22:18:11 GMT
+  recorded_at: Fri, 16 Jan 2015 03:28:06 GMT
 recorded_with: VCR 2.9.3

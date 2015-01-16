@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
+    body:
+      encoding: US-ASCII
+      string: queryString=fallout+3+-
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.howlongtobeat.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 16 Jan 2015 03:28:08 GMT
+      Content-Type:
+      - text/html; charset=windows-1252
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=ee2c831ea084387359d6ed5642deb9c3; path=/
+      - __cfduid=df95606702cd637c53b395ca9fc75888c1421378888; expires=Sat, 16-Jan-16
+        03:28:08 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1a9738a3f7040b20-SYD
+    body:
+      encoding: UTF-8
+      string: "<div id='suggestionsList_main' class='gamelist_list'>\t<div class='search_loading
+        back_white shadow_box'>\n\t\t\t\tNo results in <u>games</u>, sorry mate.\n\t\t\t</div></div>\n\t
+        \ <div class='clear'></div>"
+    http_version: 
+  recorded_at: Fri, 16 Jan 2015 03:28:08 GMT
+recorded_with: VCR 2.9.3

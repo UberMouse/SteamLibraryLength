@@ -5,7 +5,7 @@ http_interactions:
     uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
     body:
       encoding: US-ASCII
-      string: queryString=warhammer+40%2C000+dawn+of+war++winter+assault
+      string: queryString=warhammer+40%2C000+dawn+of+war+-+winter+assault
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jan 2015 22:18:14 GMT
+      - Fri, 16 Jan 2015 03:28:09 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=66622efd30e373d9f92ea643bf0f5385; path=/
-      - __cfduid=de1f7b2fd801dbbb58b842302d27bcdf61421273893; expires=Thu, 14-Jan-16
-        22:18:13 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=32d5c057725ee259abf076955e8355eb; path=/
+      - __cfduid=ddbbf68e48467a8c7509a6e818bf4b7f71421378889; expires=Sat, 16-Jan-16
+        03:28:09 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,12 +45,12 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a8d354d7bed0b26-SYD
+      - 1a9738ac23be0b20-SYD
     body:
       encoding: UTF-8
       string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
         shadow_box back_blue'>We Found 1 Games for \"warhammer 40,000 dawn of war
-        \ winter assault\"</div>\t<li>\t<div class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a
+        - winter assault\"</div>\t<li>\t<div class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a
         title='Warhammer 40,000: Dawn of War - Winter Assault' href='game.php?id=11042'>\n\t\t\t\t\t\t\t\t<img
         style='width:100%;' src='http://howlongtobeat.com/gameimages/256px-WA_Box_art.jpg'
         />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
@@ -69,5 +69,5 @@ http_interactions:
         text_white' title='Submit Your Time' \thref='submit_add.php?gid=11042'>+ Your
         Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div class='clear'></div>"
     http_version: 
-  recorded_at: Wed, 14 Jan 2015 22:18:14 GMT
+  recorded_at: Fri, 16 Jan 2015 03:28:09 GMT
 recorded_with: VCR 2.9.3

@@ -5,7 +5,7 @@ http_interactions:
     uri: http://www.howlongtobeat.com/search_main.php?detail=0&page=1&plat=&sortd=Normal%20Order&sorthead=popular&t=games
     body:
       encoding: US-ASCII
-      string: queryString=braid
+      string: queryString=half-life+2+episode+one
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=67d227e1c92f83ddfc25eb74a21366f0; path=/
-      - __cfduid=d57f0cfa22123315bdd0010c8bb8f241e1421378886; expires=Sat, 16-Jan-16
-        03:28:06 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=0e6478dbc6cab219567fffcdb6098df1; path=/
+      - __cfduid=d29632faef11cac500c71bbe493a7e9571421378887; expires=Sat, 16-Jan-16
+        03:28:07 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,26 +45,27 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a97389b33170b20-SYD
+      - 1a97389d26630b20-SYD
     body:
       encoding: UTF-8
       string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
-        shadow_box back_blue'>We Found 1 Games for \"braid\"</div>\t<li>\t<div class='gamelist_image
-        back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Braid' href='game.php?id=1290'>\n\t\t\t\t\t\t\t\t<img
-        style='width:100%;' src='http://howlongtobeat.com/gameimages/Braidlogo.jpg'
-        />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div class='gamelist_details
-        shadow_box back_darkish'>\n\t\t\t\t\t\t\t<h3 class='' style=''>\n\t\t\t\t\t\t\t\t<a
-        class='text_yellow' title='Braid' href='game.php?id=1290'>Braid</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
-        class='back_darkish' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
-        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>5
+        shadow_box back_blue'>We Found 1 Games for \"half-life 2 episode one\"</div>\t<li>\t<div
+        class='gamelist_image back_black shadow_box'>\n\t\t\t\t\t\t\t<a title='Half-Life
+        2: Episode One' href='game.php?id=4250'>\n\t\t\t\t\t\t\t\t<img style='width:100%;'
+        src='http://howlongtobeat.com/gameimages/Image-HL2EP1cover.jpg' />\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\t\t<div
+        class='gamelist_details shadow_box back_white'>\n\t\t\t\t\t\t\t<h3 class=''
+        style=''>\n\t\t\t\t\t\t\t\t<a class='text_blue' title='Half-Life 2: Episode
+        One' href='game.php?id=4250'>Half-Life 2: Episode One</a>\n\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t<div
+        class='back_white' style='min-height: 40px;padding: 4px 5px;'><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Main Story</div><div class='gamelist_tidbit time_100'>4
         Hours</div></div><div style='display:inline-block;'><div class='gamelist_tidbit'>Main
-        + Extra</div><div class='gamelist_tidbit time_100'>6 Hours</div></div><div
+        + Extra</div><div class='gamelist_tidbit time_100'>4&#189; Hours</div></div><div
         style='display:inline-block;'><div class='gamelist_tidbit'>Completionist</div><div
-        class='gamelist_tidbit time_100'>7 Hours</div></div><div style='display:inline-block;'><div
-        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>5&#189;
+        class='gamelist_tidbit time_100'>5 Hours</div></div><div style='display:inline-block;'><div
+        class='gamelist_tidbit'>Combined</div><div class='gamelist_tidbit time_100'>4
         Hours</div></div>\t\t\t</div>\t\t\t\t\t\t\t<div class='back_dark'>\n\t\t\t\t\t\t\t\t<strong
         class='gamelist_tidbit text_white'>Submit:</strong><a class='gamelist_tidbit
-        text_white' title='Submit Your Time' \thref='submit_add.php?gid=1290'>+ Your
+        text_white' title='Submit Your Time' \thref='submit_add.php?gid=4250'>+ Your
         Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div class='clear'></div>"
     http_version: 
   recorded_at: Fri, 16 Jan 2015 03:28:07 GMT

@@ -92,4 +92,12 @@ FactoryGirl.define do
     main_with_extras_length 21.5
     completionist_length 32
   end
+
+  factory :hl2_ep1, parent: :hltb_game do
+    name "Half-Life 2: Episode One"
+    url "http://howlongtobeat.com/game.php?id=4250"
+    main_length 4
+    main_with_extras_length 4.5
+    completionist_length 5
+  end
 end

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jan 2015 22:18:13 GMT
+      - Fri, 16 Jan 2015 03:28:09 GMT
       Content-Type:
       - text/html; charset=windows-1252
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=9bb4f4cb29e9949a8489a15306b4e065; path=/
-      - __cfduid=de1f7b2fd801dbbb58b842302d27bcdf61421273893; expires=Thu, 14-Jan-16
-        22:18:13 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
+      - PHPSESSID=7934478f3068ca14b9400970b9507b1a; path=/
+      - __cfduid=df95606702cd637c53b395ca9fc75888c1421378888; expires=Sat, 16-Jan-16
+        03:28:08 GMT; path=/; domain=.howlongtobeat.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -45,7 +45,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 1a8d354976300b26-SYD
+      - 1a9738a712fb0b20-SYD
     body:
       encoding: UTF-8
       string: "<div id='suggestionsList_main' class='gamelist_list'><div class='search_loading
@@ -187,5 +187,5 @@ http_interactions:
         Your Time</a>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n</li></div>\n\t  <div
         class='clear'></div>"
     http_version: 
-  recorded_at: Wed, 14 Jan 2015 22:18:13 GMT
+  recorded_at: Fri, 16 Jan 2015 03:28:09 GMT
 recorded_with: VCR 2.9.3

@@ -20,28 +20,32 @@ describe HLTB::Client, :vcr do
     end
 
     context "Edge cases" do
-      it 'retrieves Civilization IV' do
+      it 'retrieves games with apostrophes in the name' do
         expect(client.lookup("Sid Meier's Civilization IV")).to eq(build(:civ_iv))
       end
 
-      it 'retrieves Batman: Arkham Asylum GOTY Edition' do
+      it 'retrieves GOTY editions' do
         expect(client.lookup('Batman: Arkham Asylum GOTY Edition')).to eq(build(:batman_arkham_asylum))
       end
 
-      it 'retrieves Red Faction Guerrilla Steam Edition' do
+      it 'retrieves Steam Editions' do
         expect(client.lookup('Red Faction Guerrilla Steam Edition')).to eq(build(:red_faction_guerrilla))
       end
 
-      it 'retrieves Fallout 3 - Game of the Year Edition' do
+      it 'retrieves games with trailing punctuation that is not stripped out' do
         expect(client.lookup('Fallout 3 - Game of the Year Edition')).to eq(build(:fallout_3))
       end
 
-      it 'retrieves Warhammer 40,0000: Dawn of War - Winter Assault' do
+      it 'retrieves games with decimal separators' do
         expect(client.lookup('Warhammer 40,000: Dawn of War - Winter Assault')).to eq(build(:w40k_winter_assault))
       end
 
-      it 'retrieves Sleeping Dogs™' do
+      it 'retrieves games with copyright symbols' do
         expect(client.lookup('Sleeping Dogs™')).to eq(build(:sleeping_dogs))
+      end
+
+      it 'retrieves games with hyphenated titles' do
+        expect(client.lookup('Half-Life 2: Episode One')).to eq(build(:hl2_ep1))
       end
     end
   end
