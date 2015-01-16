@@ -36,5 +36,4 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   config.middleware.delete Rack::Lock
   config.react.variant = :development
-  config.browserify_rails.commandline_options = "-t coffee-reactify --extension='.cjsx' --extension='.coffee'"
 end
