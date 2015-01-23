@@ -4,6 +4,8 @@ gameActions = require('flux/actions/games')
 gameStore = require('flux/stores/games')
 userStore = require('flux/stores/user')
 applicationStore = require('flux/stores/application')
+Slider = require('components/slider')
+GameSettingsForm = require('components/games/settings_form')
 
 GamesLoading = React.createClass
   displayName: 'GamesLoading'
@@ -57,8 +59,6 @@ DisplayGames = React.createClass
 ViewGames = React.createClass
   mixins: [gameStore.mixin()]
   displayName: 'ViewGames'
-  getDefaultState: ->
-    kickedOffLoad: false
   getStateFromStores: ->
     games: @store.get('games')
     loading: @store.get('loading')

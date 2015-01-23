@@ -4,7 +4,8 @@ React = require('react/addons')
 Link = require('react-router-component').Link
 userActions = require('flux/actions/user')
 userStore = require('flux/stores/user')
-
+GameSettingsForm = require('components/games/settings_form')
+Slider = require('components/slider')
 
 LoadGames = React.createClass
   displayName: 'LoadGames'
@@ -36,6 +37,10 @@ HomePage = React.createClass
     else
       target = <EnterSteamInformation />
 
-    <div>{target}</div>
+    <div>
+      <Slider>
+        <GameSettingsForm />
+      </Slider>
+    {target}</div>
 
 module.exports = HomePage

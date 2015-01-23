@@ -1,0 +1,24 @@
+#slider-toggle
+  margin: 0 auto
+  transform: translateX(500%)
+
+.open #slider-toggle
+  margin-top: -100px
+
+#slider
+  width: 600px
+  position: fixed
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 10
+
+#slider-content
+  display: none
+  transform: translateY(-100%)
+  transition: .5s cubic-bezier(0, 1, 0.5, 1)
+  padding-bottom: 25px
+//todo get slide animation working with button position
+.open #slider-content
+  display: block
+  transform: translateY(0%)
