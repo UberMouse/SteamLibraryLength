@@ -16,15 +16,14 @@ Game = React.createClass
   displayName: 'Game'
   render: ->
     game = @props.game
-    noTimeInformation = game.main_length == 0 && game.main_with_extras_length == 0 && game.completionist_length == 0
     classes = React.addons.classSet(
       'danger': !game.game_found_on_hltb
-      'warning': noTimeInformation
+      'warning': game.invalid
     )
-    beaten = if(game.playtime > game.main_length) then 'Yes' else 'No'
+    beaten = if(game.beaten) then 'Yes' else 'No'
     if game.playtime == 0
       beaten = 'Unplayed'
-    if noTimeInformation || game.main_length == 0
+    if game.invalid || game.main_length == 0
       beaten = 'N/A'
     <tr className={classes}>
       <td>{game.name}</td>
@@ -39,7 +38,7 @@ DisplayGames = React.createClass
   displayName: 'DisplayGames'
   render: ->
     games = @props.games.map (game)->
-      <Game game={game} key={game.app_id}/>
+                          <Game game={game} key={game.app_id}/>
     <table className='table table-striped table-hover'>
       <thead>
         <tr>
@@ -71,6 +70,9 @@ ViewGames = React.createClass
     loading = if(@state.loading) then <GamesLoading loadedGames={@state.loadProgress.loaded} totalGames={@state.loadProgress.total} /> else null
 
     <div>
+      <Slider>
+        <GameSettingsForm />
+      </Slider>
       {loading}
       <DisplayGames games={@state.games} />
     </div>

@@ -5,7 +5,7 @@ ApplicationStore = flux.createStore {
     kickedOffGamesLoad: false
     showBeatenGames: true
     showInvalidGames: true
-    orderByLength: false
+    orderByLength: true
     gameTitleFilter: ''
 }, []
 

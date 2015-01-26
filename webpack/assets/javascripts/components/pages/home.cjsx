@@ -37,10 +37,6 @@ HomePage = React.createClass
     else
       target = <EnterSteamInformation />
 
-    <div>
-      <Slider>
-        <GameSettingsForm />
-      </Slider>
-    {target}</div>
+    <div>{target}</div>
 
 module.exports = HomePage
