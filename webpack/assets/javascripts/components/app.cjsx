@@ -7,7 +7,7 @@ Location = Router.Location
 NotFound = Router.NotFound
 
 HomePage = require('components/pages/home')
-GamesRouter = require('components/games_router')
+GamesRouter = require('components/games/router')
 
 NotFoundHandler = require('components/pages/not_found')
 

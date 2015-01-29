@@ -6,6 +6,7 @@ userStore = require('flux/stores/user')
 applicationStore = require('flux/stores/application')
 Slider = require('components/slider')
 GameSettingsForm = require('components/games/settings_form')
+GamesLayout = require('components/games/layout')
 
 GamesLoading = React.createClass
   displayName: 'GamesLoading'
@@ -69,12 +70,12 @@ ViewGames = React.createClass
   render: ->
     loading = if(@state.loading) then <GamesLoading loadedGames={@state.loadProgress.loaded} totalGames={@state.loadProgress.total} /> else null
 
-    <div>
+    <GamesLayout>
       <Slider>
         <GameSettingsForm />
       </Slider>
       {loading}
       <DisplayGames games={@state.games} />
-    </div>
+    </GamesLayout>
 
 module.exports = ViewGames
