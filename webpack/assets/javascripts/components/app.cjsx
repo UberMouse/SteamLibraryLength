@@ -18,7 +18,7 @@ App = React.createClass
   render: ->
     <Locations path={@props.path}>
       <Location path="/" handler={HomePage} />
-      <Location path="/games" handler={ViewGamesPage} />
+      <Location path="/:steamId/games" handler={ViewGamesPage} />
       <NotFound handler={NotFoundHandler} />
     </Locations>
 

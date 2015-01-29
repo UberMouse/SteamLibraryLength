@@ -20,7 +20,7 @@ HomePage = React.createClass
   storeChangeCallback: ->
     steamId = @store.get('steamId')
     if(steamId != null)
-      @navigate('/games')
+      @navigate("/#{steamId}/games")
   render: ->
     <div className='form-control-wrapper'>
       <input type='text' onKeyPress={@handleInput} ref='targetUserInput' className='form-control empty' placeholder="Enter your Steam vanity url or SteamID64"/>
