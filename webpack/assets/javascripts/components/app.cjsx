@@ -7,18 +7,16 @@ Location = Router.Location
 NotFound = Router.NotFound
 
 HomePage = require('components/pages/home')
-ViewGamesPage = require('components/pages/view_games')
+GamesRouter = require('components/games_router')
 
-NotFoundHandler = React.createClass
-  render: ->
-    <h1>Not found</h1>
+NotFoundHandler = require('components/pages/not_found')
 
 App = React.createClass
-  displayName: 'SteamLibraryLength'
+  displayName: 'SteamLibraryLengthRouter'
   render: ->
     <Locations path={@props.path}>
       <Location path="/" handler={HomePage} />
-      <Location path="/:steamId/games" handler={ViewGamesPage} />
+      <Location path="/:steamId(/*)" handler={GamesRouter} />
       <NotFound handler={NotFoundHandler} />
     </Locations>
 
