@@ -8,13 +8,16 @@ module.exports = React.createClass
   displayName: 'StatsPage'
   mixins: [gamesStore.mixin()]
   getStateFromStores: ->
-    totalGames: @store.get('allGames').length
-    completedGames: @store.get('allGames').filter((game)-> game.beaten).length
-    playedGames: @store.get('allGames').filter((game)-> game.played).length
-    timeToBeatUnplayed: @store.get('allGames')
-                              .filter((game)-> !game.played)
-                              .map((game)-> game.main_length)
-                              .reduce((l, r)-> l + r)
+    games = @store.get('allGames')
+    # So that reduce doesn't crash before the data is loaded
+    unless(games.length)
+      games = [0, 0]
+    totalGames: games.length
+    completedGames: games.filter((game)-> game.beaten).length
+    playedGames: games.filter((game)-> game.played).length
+    timeToBeatUnplayed: games.filter((game)-> !game.played)
+                             .map((game)-> game.main_length)
+                             .reduce((l, r)-> l + r)
   render: ->
     <GamesLayout>
       <p>Total games: {@state.totalGames}</p>
