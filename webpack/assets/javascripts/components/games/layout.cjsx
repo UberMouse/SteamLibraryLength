@@ -1,17 +1,22 @@
 # @cjsx React.DOM
 
 React = require('react/addons')
+userStore = require('flux/stores/user')
 Router = require('react-router-component')
 Link = Router.Link
 
 
 module.exports = React.createClass
   displayName: 'GamesLayout'
-  mixins: [Router.NavigatableMixin]
+  mixins: [Router.NavigatableMixin, userStore.mixin()]
+  getStateFromStores: ->
+    steamId: @store.get('steamId')
+  navigateTo: (route)->
+    @navigate(route)
   render: ->
     routes = [{path: '/stats', name: 'Stats'}, {path: '/games', name: 'Games List'}].map (route, index)=>
       classes = React.addons.classSet('active': @getPath() == route.path)
-      <li className={classes} key={index}><Link href={route.path}>{route.name}</Link></li>
+      <li className={classes} key={index}><Link href={"/#{@state.steamId}/#{route.path}"}>{route.name}</Link></li>
 
     <div id='games-layout'>
       <div className="navbar navbar-default">
