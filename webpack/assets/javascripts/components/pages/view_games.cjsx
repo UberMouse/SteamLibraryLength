@@ -22,7 +22,7 @@ Game = React.createClass
       'warning': game.invalid
     )
     beaten = if(game.beaten) then 'Yes' else 'No'
-    if game.playtime == 0
+    unless game.played
       beaten = 'Unplayed'
     if game.invalid || game.main_length == 0
       beaten = 'N/A'
